@@ -5,16 +5,27 @@ h1{
     font-weight: 400;
     font-size: 40px;
 }
-
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+h6{
+    text-align: center;
+}
+p{
+    color: gray;
+}
 .pink-touch{
     color: rgb(247, 59, 147);
     font-weight: bolder;
+    font-size: 50px;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 2%;
-    padding-left: 5%:
+    padding-left: 5%;
 }
 .half-width img{
     width: 100%;
@@ -26,7 +37,9 @@ h1{
 
 }
 section{
-    height: 650px;
+    height: 500px;
+    padding-bottom: 100px;
+    padding: 10%;
 }
 .link-button{
     text-decoration: none;
@@ -34,5 +47,49 @@ section{
     background-image:linear-gradient(45deg,rgb(241, 89, 165), rgb(245, 21, 170));
     padding: 5px 30px;
     color: white;
-    border-width: 20px;
+    /* border-width: 20px; */
+    font-weight: 700;
+}
+.Biography-area{
+    background-image: url("images/biography-bg.png");
+    background-size: 100% 100%;
+}
+.serialing-image{
+    float: left;
+    width: 33%;
+}
+.latest-work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#msg{
+    width: 40%;
+    position: relative;
+    left: 350px;
+    top: 30px;
+    height: 120px;
+    margin:5px;
+    padding: 2px;
+}
+#lorem{
+    text-align: justify;
+    position: relative;
+    left: 400px;
+    /* border-radius: 300px; */
+    width: 30%;
+}
+.footer-area{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.small{
+    font-weight: 100;
+    font-size: 10px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
